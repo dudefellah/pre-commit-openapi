@@ -14,10 +14,10 @@ small bit of functionality.
 Add this to your `.pre-commit-config.yaml`
 
 ```yaml
--   repo: https://github.com/dudefellah/pre-commit-openapi
-    rev: "v0.0.1"
-    hooks:
-      - id: pre-commit-openapi
+- repo: https://github.com/dudefellah/pre-commit-openapi
+  rev: "v0.0.1"
+  hooks:
+    - id: check-openapi
 ```
 
 # Tools Used
