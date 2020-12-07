@@ -1,0 +1,9 @@
+---
+- id: check-openapi
+  name: check-openapi
+  entry: openapi-spec-validator
+  description: >-
+    Validate your OpenAPI/Swagger Specs with openapi-spec-validator in
+    Pythn
+  language: python
+  files: (openapi|swagger).*\.(json|ya?ml)$
