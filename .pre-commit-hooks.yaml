@@ -4,6 +4,6 @@
   entry: openapi-spec-validator
   description: >-
     Validate your OpenAPI/Swagger Specs with openapi-spec-validator in
-    Pythn
+    Python
   language: python
   files: (openapi|swagger).*\.(json|ya?ml)$
