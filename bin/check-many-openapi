@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+for var in "$@"; do openapi-spec-validator "$var"; done;
