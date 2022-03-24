@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(
@@ -6,7 +6,7 @@ setup(
     version='0.0.0',
     install_requires=['openapi-spec-validator==0.2.9'],
     python_requires='>=3',
-    packages=['src'],
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
             'check-valid-openapi = check_valid_openapi:main',
