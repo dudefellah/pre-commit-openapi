@@ -1,7 +1,7 @@
 ---
 - id: check-openapi
   name: check-openapi
-  entry: openapi-spec-validator
+  entry: check-valid-openapi
   description: >-
     Validate your OpenAPI/Swagger Specs with openapi-spec-validator in
     Python
